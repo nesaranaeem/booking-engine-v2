@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+
+/* Custom style for react-phone-input-2 dropdown */
+.react-tel-input-dropdown-custom {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000; /* Ensure it appears above other elements */
+  width: 100%; /* Match the input width */
+}
+
+/* Adjusting the react-datepicker to be more professional */
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+}
+
+/* Customize react-datepicker's calendar */
+.react-datepicker {
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.react-datepicker__header {
+  background-color: #f3f4f6;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.react-datepicker__day:hover {
+  background-color: #e5e7eb;
+}
+
+/* Adjust scrollbar for dropdown */
+.react-tel-input-dropdown-custom::-webkit-scrollbar {
+  width: 6px;
+}
+
+.react-tel-input-dropdown-custom::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.react-tel-input-dropdown-custom::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.react-tel-input-dropdown-custom::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+.fi {
+  width: 12px; /* Adjust as needed */
+  height: 9px; /* Adjust as needed */
+}
