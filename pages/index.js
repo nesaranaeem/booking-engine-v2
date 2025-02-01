@@ -14,7 +14,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import LoadingSpinner from "@/components/ui/loadingSpinner";
+import LoadingSpinner from "@/components/ui/LoadingSpinner";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
